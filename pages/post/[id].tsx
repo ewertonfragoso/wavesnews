@@ -25,7 +25,7 @@ export default function PostPage({ post }: Props) {
         <Layout title="">
             <div>
                 <Head>
-                    <title> {post.fields.title} | Surf Blog </title>
+                    <title> {post.fields.title} | Wave News </title>
                     <meta name="description" content="Surf Blog" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
