@@ -44,7 +44,7 @@ This project was created in <a href="https://coders-week.codersclub.com.br/">Cod
 
 ## :memo: License 
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](http://www.opensource.org/licenses/MIT)
 
 ---
 
