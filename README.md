@@ -5,7 +5,10 @@
 </h1>
 
 <p align="center">
-    <a href="https://wavesnews.vercel.app">View Online Demo</a>
+    <a href="https://wavesnews.vercel.app">View Demo Vercel</a>
+    <br/>
+    <a href="https://wavesnews.sfo3.cdn.digitaloceanspaces.com">View Static Demo Digital Ocean Spaces CDN</a>
+    
     <br/>
 </p>
 <p align="center">
@@ -34,13 +37,14 @@ This is the WaveNews a platform where surfes can have the best surf news
 
 This project was created in <a href="https://coders-week.codersclub.com.br/">Coders Week Headless Challenge</a>, with the following technologies:
 
-- [ReactJS] (http://reactjs.org/)
-- [NextJS] (http://nextjs.org/)
-- [Contentful] (http://contentful.com/)
-- [Vercel] (http://vercel.com/)
-- [TypeScript] (http://typescriptlang.org/)
-- [Vercel] (http://tailwindcss.com/)
-- [AWS] (http://aws.amazon.com/)
+- [ReactJS] (https://reactjs.org/)
+- [NextJS] (https://nextjs.org/)
+- [Contentful] (https://contentful.com/)
+- [Vercel] (https://vercel.com/)
+- [TypeScript] (https://typescriptlang.org/)
+- [Vercel] (https://tailwindcss.com/)
+- [AWS] (https://aws.amazon.com/) 
+- [DigitalOcean] (https://digitalocean.com) Using Spaces
 
 ## :memo: License 
 
