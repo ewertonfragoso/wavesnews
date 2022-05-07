@@ -7,7 +7,7 @@
 <p align="center">
     <a href="https://wavesnews.vercel.app">View Demo Vercel</a>
     <br/>
-    <a href="https://wavesnews.sfo3.cdn.digitaloceanspaces.com">View Static Demo Digital Ocean Spaces CDN</a>
+    <a href="https://wavesnews.sfo3.cdn.digitaloceanspaces.com/index.html">View Static Demo Digital Ocean Spaces CDN</a>
     
     <br/>
 </p>
