@@ -20,7 +20,7 @@ export default function Home( {posts: listOfPosts }: Props ) {
   return (
     <div>
       <Head>
-        <title>Home | Surf Blog</title>
+        <title>Wave News | Home</title>
         <meta name="description" content="Surf Blog " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
