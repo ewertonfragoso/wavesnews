@@ -3,7 +3,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { BLOCKS } from '@contentful/rich-text-types';
 import Head from 'next/head'
 import Layout from '../../components/Layout'
-import { getPost, Post } from '../../services/content'
+import { getPost, getPosts, Post } from '../../services/content'
 
 const renderOptions = {
     renderNode: {
@@ -43,13 +43,22 @@ export default function PostPage({ post }: Props) {
     )
 }
 
-export async function getServerSideProps({ query }) {
-    const post = await getPost(query.id);
+export async function getStaticProps({ params }) {
+    const post = await getPost(params.id);
   
     return {
       props: {
         post
       }
     }
-  }
+}
+
+export async function getStaticPaths() {
+    const posts = await getPosts();
+    return {
+      paths: posts.map((post) => `/post/${post.sys.id}`),
+      fallback: false,
+    }
+    
+}
 

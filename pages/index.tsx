@@ -48,7 +48,7 @@ Home.getLayout = function getLayout(page) {
   return <Layout title="Home">{page}</Layout>
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const posts = await getPosts();
 
   return {
@@ -57,3 +57,4 @@ export async function getServerSideProps() {
     }
   }
 }
+
